@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="utf-8">
 <meta name="viewport"
@@ -51,7 +51,7 @@
 					<img class="img-fluid" src="./img/logo.jpg"/>
 				</div>
 				<div class="col-md-auto">
-					<h1 class="display-3">김 종성</h1>
+					<h1 class="display-3" th:text=${name}>Name</h1>
 					<br />
 
 					<p>
