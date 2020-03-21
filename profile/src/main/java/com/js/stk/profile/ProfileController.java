@@ -1,5 +1,6 @@
 package com.js.stk.profile;
 
+import java.util.List;
 import java.util.Optional;
 
 import javax.sql.DataSource;
@@ -34,8 +35,9 @@ public class ProfileController {
 	public String getProfile(Model model) {
 		
 		
-		Optional<Profile> profile = profileRepository.findByName("김종성");
-		model.addAttribute("profile", profile);
+		Optional<Profile> profile = profileRepository.findByName("js");
+		
+		model.addAttribute("profile", profile.get());
 		
 		return "profile";
 	}
