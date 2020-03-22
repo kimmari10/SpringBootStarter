@@ -1,4 +1,4 @@
-package com.js.stk.profile;
+package com.js.stk.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +10,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import com.js.stk.domain.entity.Profile;
+import com.js.stk.domain.repository.ProfileRepository;
 
 
 

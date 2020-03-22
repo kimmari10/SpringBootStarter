@@ -1,4 +1,4 @@
-package com.js.stk.profile;
+package com.js.stk.domain.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
