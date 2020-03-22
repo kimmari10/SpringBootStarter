@@ -35,7 +35,7 @@ public class ProfileController {
 	public String getProfile(Model model) {
 		
 		
-		Optional<Profile> profile = profileRepository.findByName("js");
+		Optional<Profile> profile = profileRepository.findByName("김종성");
 		
 		model.addAttribute("profile", profile.get());
 		
